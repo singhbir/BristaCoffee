@@ -9,6 +9,9 @@ import 'aos/dist/aos.css';
 import Aos from 'aos'
 import AboutComponent from './Components/AboutComponent';
 import OurTeamComponent from './Components/OurTeamComponent';
+import Contactus from './Components/Contactus';
+
+
 function App() {
   Aos.init({
   });
@@ -30,7 +33,11 @@ function App() {
       <div className="fifthComponent" id="fifthpage">
         <OurTeamComponent/>
       </div>
+      <div className="sixthComponent" id="sixthcomponent">
+      <Contactus/>
+      </div>
     </div>
+   
   );
 }
 

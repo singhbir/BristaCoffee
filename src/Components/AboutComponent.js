@@ -97,7 +97,7 @@ function AboutComponent() {
         
   
   <VerticalTimelineElement
-    className="animated infinite heartBeat"
+    className="animated infinite tada"
     iconStyle={{}}
     icon={<img src={about} alt="hello world" className="img-fluid rounded-circle" style={{ position: 'absolute',
         top: '50%',

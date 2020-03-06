@@ -36,7 +36,7 @@ function Navs() {
                        <a href="#fifthpage" className="nav-item"><i className="fa fa-user" aria-hidden="true"/>&nbsp;Team</a>
                     </li> 
                     <li className="nav-link">
-                       <a href="#" className="nav-item"><i className="fa fa-volume-control-phone" aria-hidden="true"/>&nbsp;Contact </a>
+                       <a href="#sixthcomponent" className="nav-item"><i className="fa fa-volume-control-phone" aria-hidden="true"/>&nbsp;Contact </a>
                     </li> 
                 </ul>
 
