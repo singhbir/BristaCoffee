@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+.servicemaintext h1{
+    text-align: center;
+    position: relative;
+    margin-top:7%;
+    font-family: 'Fjalla One';
+    font-weight: 700 !important;
+    margin-bottom: 15px;
+    letter-spacing: 7px;
+    font-size: 40px;
+    margin-left:-10px;
+
+}
+.servicemaintext p{
+    text-align: center;
+    font-size: 16px;
+    color: #777;
+    font-style: italic;
+    font-family: 'Averia Serif Libre';
+    font-weight:400;
+    margin-left: 2%;
+    margin-bottom: 80px;
+    
+}
+.servicecards
+{
+    text-align: center;
+    display: flex;
+}
+.servicecards .icon{
+    background-color: #f63;
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    padding-top:25px;
+
+}
+.servicecards .icon i{
+    font-size: 50px;
+    color: white;
+}
+
+
+
+
+/* service cards styles */
+.serviceicon i{
+    background-color: #f63;
+    font-size: x-large;
+    border:40px solid #f63;
+    color: white;
+    font-size: 40px;
+}
+.card{
+    text-align: center;
+    
+}
+.service  h4{
+    font-size: 18px !important;
+    color:#333;
+    font-family:'Montserrat';
+    font-weight: bolder;
+}
+
+.service p{
+    font-size:14px;
+    color: #777;
+    font-family: 'Roboto Slab';
+}
+.scardmain{
+    margin-bottom: 8%;
+}
+@media screen and (max-width:768px){
+    .servicemaintext h1{
+        margin-top:25%;
+    }   
+}

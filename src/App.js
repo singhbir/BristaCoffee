@@ -1,24 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Navs from './Components/Navs';
+import FirstPageText from './Components/FirstPageText';
+import ServicePage from './Components/ServicePage';
+import Portfolio from './Components/Portfolio';
+import 'aos/dist/aos.css';
+import Aos from 'aos'
+import AboutComponent from './Components/AboutComponent';
+import OurTeamComponent from './Components/OurTeamComponent';
 function App() {
+  Aos.init({
+  });
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="MainComponent">
+      <Navs/>
+      <FirstPageText/>
+      </div>
+      <div className="secondComponent" id="secondpage">
+        <ServicePage />
+      </div>
+      <div className="thirdComponent" id="thirdpage">
+        <Portfolio/>
+      </div>
+      <div className="fourthComponent" id="fourthpage" >
+        <AboutComponent/>
+      </div>
+      <div className="fifthComponent" id="fifthpage">
+        <OurTeamComponent/>
+      </div>
     </div>
   );
 }

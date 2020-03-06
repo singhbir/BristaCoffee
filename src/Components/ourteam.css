@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+.OurTeamMainText{
+    padding-top:10%;
+    text-align: center;
+   
+}
+.OurTeamMainText h1{
+    font-size: 40px;
+    font-family:'Montserrat';
+    font-weight: 700;
+    color:#333;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.OurTeamMainText p{
+    font-style: italic;
+    font-size: 16px;
+    font-family: 'Poppins';
+    padding-bottom:5%;
+
+
+}
+.ourteamcard .card{
+    background-color: #eee;
+    text-align: center;
+    
+    
+}
+.ourteamcard .card:hover{
+    transition: .5s ease-in-out;
+    box-shadow: -3px -3px 5px #ffffff70,3px 3px 15px #00000070;
+   
+}
+.ourteamcard .card img{
+    height:200px;
+    width:200px;
+    position: relative;    
+    left:50%;
+    transform: translateX(-50%);
+    border:7px solid white;
+}
+.ourteamcard .card h1{
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight:700;
+    text-transform: uppercase;
+}
+.ourteamcard .card h4{
+font-size:14px;
+font-family: 'Roboto Slab';
+font-weight: 400;
+line-height: 1.75;
+}
+.ourteamcard .card .ourteamlinks{
+    padding-top:30px;
+} 
+
+.ourteamcard .card .ourteamlinks ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding:0;
+}
+.ourteamcard .card .ourteamlinks ul li{
+ text-decoration: none;
+ background-color: black;
+ font-size: 2em;
+ color: white;
+ height:50px;
+ width: 50px;
+ text-align: center;
+ border-radius: 50%;
+}
+.ourteamcard .card .ourteamlinks ul li a i{
+    color:white;
+}
+.ourteamcard .card .ourteamlinks ul li:hover{
+    background-color: #ffc107;
+    transition: .5s ease-in-out;
+}
+
+.ourteambtext{
+    text-align: center;
+    color:#777
+}

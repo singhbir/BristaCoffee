@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+.Portfoliomaintext {
+    text-align: center;
+    position: relative;
+    padding-top:5%;
+}
+
+.Portfoliomaintext h1{
+      font-size: 40px;
+      font-family:'Montserrat';
+      text-transform: uppercase;
+      font-weight: 700;
+}
+.Portfoliomaintext p{
+    font-size: 16px;
+    font-style:italic;
+    font-weight: 400;
+    color:#777;
+    margin-left: 1%;
+}
+.maincardimg{
+    display: block;
+    position: relative;
+    max-width: 400px;
+    margin:0 auto;
+}
+.maincardimg img{
+    width:100% !important;
+    position: relative;
+}
+.card .imghover{
+background: rgba(254, 209, 54, 0.9);
+height: 100%;
+width:100%;
+overflow: hidden;
+}
+.card .imghover:hover img{
+        transform: scale(1.3);
+        transition: .5s ease-in-out;
+}
+@media screen and (max-width:768px){
+    .Portfoliomaintext{
+        margin-top:25%;
+    }   
+}

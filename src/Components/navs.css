@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+.nav-link .nav-item{
+    text-decoration: none;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    color:white;
+}
+.collapse{
+    margin:auto 4em;
+}
+.navbar{
+    padding-top: 1.5em !important;
+    padding-bottom: 1em !important;
+}
+.nav-link .nav-item:hover{
+    color:#ff6633;
+}
+.navbar-nav > .nav-link{
+    padding-left:20px !important;
+  padding-right:20px !important;
+}
+.mycolor{
+    transition: 0.5s linear;
+    background-color: black;
+    
+}
+.navbar-brand a{
+    font-family: "Kaushan Script";
+    font-size: x-large;
+    color:#ff6633;
+    margin-left: 2%;
+    text-decoration: none;
+    margin-left: 5em !important;
+}
+.navbar-brand:hover a{
+    color:orange;
+    text-decoration: none;
+    
+}
+.navbar-toggler{
+    background-color: #ff6633 !important;
+    font-size:5px;
+    color:white;
+    padding:8px !important;
+}
+@media screen and (max-width:768px){
+    .navbar{
+        background-color: black;
+    }
+    .navbar-brand a{
+        margin-left: 1em !important;
+    }
+    .collapse{
+        margin:0 0;
+    }
+    .navbar-toggler{
+        font-size:10px;
+    }
+}

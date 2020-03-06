@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+.vertical-timeline-element--work{
+    text-align: center;
+    border:none;
+   
+}
+.vertical-timeline-element-content{
+    background: transparent;
+    box-shadow: none;
+    color:#fff;
+}
+.vertical-timeline-element-icon{
+    height:100px !important;
+    width:100px !important;
+    margin-left:-50px !important;
+}
+.myparallex{
+    padding-bottom: 100px;
+    padding-top:60px;
+}
+.mainTextWrapper{
+    padding-top:50px;
+    padding-bottom:50px;
+    text-align: center;
+    color:#fff;
+    
+}
+.mainTextWrapper h1{
+    text-transform: uppercase;
+    font-size:40px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    margin-bottom: 10px;
+    letter-spacing: .5em;
+    margin-left: 1%;
+}
+.mainTextWrapper p{
+    font-style: italic;
+    font-size:16px;
+    color:#ccc;
+    font-weight: 400;
+}
+.vertical-timeline{
+    padding:0 !important;
+}
+@media screen and (max-width:1170px){
+    .vertical-timeline-element-icon{
+            height:80px !important;
+            width: 80px !important;
+            margin-left: -20px !important;
+    }
+    .vertical-timeline-element-content-arrow{
+        right:95% !important;
+    }
+}
+@media screen and (max-width:768px){
+    .vertical-timeline-element-icon{
+            height:40px !important;
+            width: 40px !important;
+            margin-left: 0px !important;
+    }
+}
+
